@@ -1,5 +1,4 @@
 /* 
-
 - Font Sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
@@ -10,7 +9,6 @@ Main Color => #40adff
 Shades => #3a9ce6
 Tints =>
 Grays => #333, #555, #666
-
 */
 
 * {
@@ -31,9 +29,18 @@ body {
   line-height: 1;
 }
 
+/*************************/
+/* GENERAL REUSABLE STYLES */
+/*************************/
 .container {
   max-width: 114rem;
   margin: 0 auto;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.1;
 }
 
 /*************************/
@@ -112,7 +119,7 @@ body {
 /*************************/
 .section-hero {
   background-color: #fffbf5;
-  padding: 3.2rem 0;
+  padding: 4.8rem 0;
 }
 
 .hero-container {
@@ -127,6 +134,7 @@ body {
 
 .hero-heading {
   font-size: 6.2rem;
+  line-height: 1.05;
   margin-bottom: 2.4rem;
 }
 
@@ -167,7 +175,7 @@ body {
 
 .user-stats {
   color: #555;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 
@@ -178,4 +186,39 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+/*************************/
+/* FEATURES SECTION */
+/*************************/
+.section-features {
+  padding: 9.6rem 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.feature {
+  border: 1px solid #ddd;
+  padding: 3.2rem;
+  border-radius: 4px;
+}
+
+.feature-icon {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
 }

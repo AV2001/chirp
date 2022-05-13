@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 114rem;
   margin: 0 auto;
 }
 
@@ -48,7 +48,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 3.2rem;
 }
 
 .logo-link {
@@ -65,42 +64,118 @@ body {
 /*************************/
 /* NAVIGATION */
 /*************************/
-.main-nav-links {
+.main-nav-list {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 2.4rem;
 }
 
-.main-nav-link:link,
-.main-nav-link:visited,
-.cta-link:link,
-.cta-link:visited {
+.btn:link,
+.btn:visited,
+.btn--cta:link,
+.btn--cta:visited {
   display: inline-block;
   color: #555;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.3s;
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
+.btn:hover,
+.btn:active {
   color: #333;
 }
 
-.cta-link:link,
-.cta-link:visited {
+.btn--cta:link,
+.btn--cta:visited {
   background-color: #40adff;
   color: #fff;
   padding: 1.2rem 2.4rem;
   border-radius: 4px;
+}
 
+.icon-text {
   display: flex;
   align-items: center;
   gap: 1.2rem;
 }
 
-.cta-link:hover,
-.cta-link:active {
+.btn--cta:hover,
+.btn--cta:active {
   background-color: #3a9ce6;
+}
+
+/*************************/
+/* HERO SECTION */
+/*************************/
+.section-hero {
+  background-color: #fffbf5;
+  padding: 3.2rem 0;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  justify-content: space-between;
+}
+
+.hero-content-box {
+  padding-top: 4.8rem;
+}
+
+.hero-heading {
+  font-size: 6.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-description {
+  color: #555;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.btn--learn-more:link,
+.btn--learn-more:visited {
+  color: #2d79b3;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn--learn-more:hover,
+.btn--learn-more:active {
+  color: #266899;
+}
+
+.users {
+  margin-bottom: 1.6rem;
+}
+
+.users img {
+  margin-right: -24px;
+}
+
+.user-stats {
+  color: #555;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.user-stats span {
+  color: #2d79b3;
+  font-weight: 700;
+}
+
+.hero-img {
+  width: 100%;
 }

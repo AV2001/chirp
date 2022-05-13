@@ -381,3 +381,30 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/*************************/
+/* FOOTER */
+/*************************/
+.footer {
+  background-color: #d9efff;
+  padding: 4.8rem;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.privacy-policy {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}

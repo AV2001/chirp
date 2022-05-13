@@ -39,7 +39,7 @@ body {
 
 .heading-secondary {
   font-size: 4.4rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
   line-height: 1.1;
 }
 
@@ -221,4 +221,84 @@ body {
 .feature-text {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+/*************************/
+/* TESTIMONIALS SECTION */
+/*************************/
+.section-testimonials {
+  background-color: #d9efff;
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 2.4rem;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.customer-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.customer-username {
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.testimonial-text {
+  color: #555;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.likes-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.likes img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.likes-count,
+.date-published {
+  color: #777;
+  font-size: 1.4rem;
 }

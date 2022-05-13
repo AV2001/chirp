@@ -20,6 +20,7 @@ Grays => #333, #555, #777
 html {
   /* (10px / 16px) * 100 = 62.5% (Scaling font-size based on client's browser) */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

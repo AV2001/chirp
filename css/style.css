@@ -120,6 +120,17 @@ body {
   background-color: #3a9ce6;
 }
 
+.nav-btn {
+  display: none;
+}
+
+.btn--nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 /*************************/
 /* HERO SECTION */
 /*************************/

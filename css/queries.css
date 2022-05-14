@@ -1,0 +1,38 @@
+/*************************/
+/* Below 1020px (Tablets) */
+/*************************/
+@media (max-width: 64em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*************************/
+/* Below 928px (Tablets) */
+/*************************/
+@media (max-width: 58em) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img-box {
+    grid-row: 1;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-description {
+    width: 80%;
+    margin-bottom: 3.2rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}

@@ -36,6 +36,7 @@ body {
 .container {
   max-width: 114rem;
   margin: 0 auto;
+  padding: 0 4.8rem;
 }
 
 .heading-secondary {
@@ -321,8 +322,11 @@ body {
   margin-bottom: 4.8rem;
 }
 
+.pricing-plan-card {
+  display: flex;
+}
+
 .pricing-plan {
-  width: 40%;
   margin: 0 auto;
   background-color: #fffbf5;
   border: 1px solid #fcc419;

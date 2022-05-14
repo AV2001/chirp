@@ -190,8 +190,12 @@ body {
   font-weight: 700;
 }
 
-.hero-img {
+.hero-img-desktop {
   width: 100%;
+}
+
+.hero-img-tablet {
+  display: none;
 }
 
 /*************************/

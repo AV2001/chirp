@@ -8,7 +8,7 @@
 }
 
 /*************************/
-/* Below 928px (Tablets) */
+/* Below 928px (Small Tablets) */
 /*************************/
 @media (max-width: 58em) {
   .hero-container {
@@ -19,7 +19,12 @@
     grid-row: 1;
   }
 
-  .hero-img {
+  .hero-img-desktop {
+    display: none;
+  }
+
+  .hero-img-tablet {
+    display: block;
     width: 100%;
   }
 
